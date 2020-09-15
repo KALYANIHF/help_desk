@@ -1,0 +1,95 @@
+/* all the responsive code are here */
+@media screen and (max-width: 600px) {
+  .massage h1 {
+    font-size: 1.3rem;
+  }
+  .massage h2 {
+    font-size: 1rem;
+  }
+  .massage h3 {
+    font-size: 0.9rem;
+  }
+  .heading_mass h1 {
+    font-size: 1.6rem;
+  }
+  .heading_mass img {
+    display: none;
+  }
+  .content_list h3 {
+    font-size: 1.4rem !important;
+  }
+  .btn-primary,
+  .btn-success {
+    font-size: 1rem !important;
+  }
+  /* ui graphics media query for mobile first site */
+
+  .ui_graphics {
+    padding: 1.5rem 0.5rem;
+  }
+  .ui_graphics h2 {
+    padding: 0.2rem 0.3rem;
+    font-size: 1.3rem;
+  }
+
+  .content .row span {
+    font-family: var(--font1);
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .content .row h4 {
+    line-height: 1.4rem !important;
+    font-size: 0.9rem !important;
+  }
+  .content .row .btn {
+    font-family: var(--font1);
+    font-size: 1rem !important;
+    font-style: oblique;
+    color: #fff !important;
+  }
+  .space {
+    padding: 0.5rem 0rem;
+  }
+  /* ###...... ui graphics end here */
+
+  /* ####..... start of responsive for fonts */
+  .fonts table {
+    font-size: 0.9rem !important;
+  }
+  .fonts table tbody td a .btn {
+    font-size: 0.8rem;
+  }
+  /* ####..... end of fonts here */
+
+  /* ####..... start of color here */
+  .colors table {
+    font-size: 0.9rem !important;
+  }
+  .colors table tbody td a .btn {
+    font-size: 0.8rem;
+  }
+  /* ####..... end of color here   */
+
+  /* ####..... start of favicons here */
+  .inner_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    /* grid-template-rows: auto auto auto auto auto auto; */
+    grid-gap: 1rem;
+  }
+  .inner_div {
+    padding: 0.5rem 0.2rem;
+  }
+  .inner_div h3 {
+    font-size: 1rem !important;
+  }
+  /* ####..... end of favicons here */
+  /* others  */
+  .others .content h5 {
+    font-size: 1rem !important;
+  }
+  .others .content h4 {
+    font-size: 1.2rem !important;
+  }
+}
